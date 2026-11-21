@@ -47,7 +47,7 @@ scope because they have their own floor in `TepenianUniverseTimeline/Reference/R
    Canon lives in `TepenianUniverseTimeline`, the game GDDs, and sibling repos, none of which are visible to a
    local search of this repo.
 8. **Nothing flows out without a decision.** Do not edit `TepenianUniverseTimeline`, any game GDD, *Elven
-   Steel*, or the Inner Tepenia methods from here without an explicit developer go-ahead. Findings that
+   Steel*, or the shared methods in Derivation Mechanisms from here without an explicit developer go-ahead. Findings that
    affect those go to the developer as proposals.
 9. **Hazy locations only (D-2).**
    - Environments are generic archetypes, tagged `[hazy]` and written conditionally.
@@ -55,7 +55,7 @@ scope because they have their own floor in `TepenianUniverseTimeline/Reference/R
    - No L4 population passes until worlds exist.
 10. **One race on its own terms.** Don't develop one race by contrast with another during a pass. Comparing
     them is a check on the finished corpus, never a way to generate content.
-11. **Parameterize, don't fork** (provisional, Q-8). The Inner Tepenia ULM, CST, RWBEM, and HUF are used in
+11. **Parameterize, don't fork** (provisional, Q-8). The ULM, CST, RWBEM, and HUF (now kept in Derivation Mechanisms) are used in
     place, through `methods/adapters/` and each race's parameter sheet. Don't copy them into this repo.
 12. **Name items two ways.** Each item gets a short code plus a plain descriptive name, and both are cited
     together:
@@ -71,11 +71,15 @@ scope because they have their own floor in `TepenianUniverseTimeline/Reference/R
     - Among plausible options, prefer the one the audience can *read*.
 
 ## Key external paths
-- Inner Tepenia methods: `/home/kuroskalacs/Documents/Doll-Fi/media/games/Inner Tepenia/InnerTepeniaGDD/`
-  - ULM: `Worldspace/Locations-and-Levels/Universal_Location_Methodology/`
-  - CST: `Worldspace/Locations-and-Levels/Cultural_Synthesis_Techniques.md`
-  - RWBEM: `Worldspace/Locations-and-Levels/Real-World_Basis_Extrapolation_Method.md`
-  - HUF: `Neo-Races-and-Cultures/_Method/Human_Universals_Culture_Framework.md` (and `Human_Universals_Extraction.md`)
+- Shared methods (updated 2026-11-21: the methods now live in Derivation Mechanisms, one combined version each):
+  `/home/kuroskalacs/Documents/Doll-Fi/media/Reference/DerivationMechanisms/Environment/`
+  - ULM: `ULM [Universal Location Methodology]/` (start with `00_RUNBOOK.md`)
+  - CST: `CST [Cultural Synthesis Techniques]/Cultural_Synthesis_Techniques.md`
+  - RWBEM: `RWBEM [Real-World Basis Extrapolation Method]/Real-World_Basis_Extrapolation_Method.md`
+  - HUF: `Neo-Races_and_Cultures_Method/Human_Universals_Culture_Framework.md` (and `Human_Universals_Extraction.md`)
+  - The adapters and Human-Assumptions Registers in `methods/adapters/` were built against the Inner Tepenia GDD
+    copies of these files (their "Original:" lines and line counts record that); read them against the
+    Derivation Mechanisms versions from now on, and note any difference.
 - Canon: `/home/kuroskalacs/Documents/Doll-Fi/media/Reference/TepenianUniverseTimeline/`
   (`Reference/Doll_Representation_Categories.md`, `Reference/Robot_Universals/`)
 - Archive for retired material: `/home/kuroskalacs/Documents/Doll-Fi/media/w-other/ArchiveVault/`

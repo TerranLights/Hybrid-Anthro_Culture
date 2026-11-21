@@ -1,3 +1,5 @@
+> **DROPPED (author, 2026-11-18):** the Hermes research agent is no longer used, and nothing is written here. This folder and its description are kept only as a record.
+
 # Hermes Research
 
 A setting where the AI agent Hermes is able to write data resulting from research, both throughout the web as well as through/across eBooks (PDF, EPUB, etc).
